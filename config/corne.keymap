@@ -46,10 +46,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &none   &none   &none     &none   &none                        &kp N7        &kp N8        &kp N9        &kp N9  &kp N0  &kp BSPC
-&none      &none   &none   &none     &none   &hold_tap SEMICOLON COLON    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0  &none   &none
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans                       &kp N1        &kp NUMBER_2  &kp NUMBER_3  &none   &none   &to 4
-                           &kp LGUI  &to 0   &kp SPACE                    &kp RET       &to 2         &kp RALT
+&kp TAB    &kp PERCENT    &kp DOLLAR     &kp GRAVE                   &kp SINGLE_QUOTE                &kp DOUBLE_QUOTES            &kp N7        &kp N8        &kp N9        &hold_tap RIGHT_BRACKET LEFT_BRACKET          &none  &kp BSPC
+&kp CARET  &kp AMPERSAND  &kp PIPE       &hold_tap UNDERSCORE MINUS  &hold_tap PLUS EQUAL            &hold_tap SEMICOLON COLON    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &hold_tap RIGHT_PARENTHESIS LEFT_PARENTHESIS  &none  &none
+&kp LSHFT  &kp HASH       &kp LESS_THAN  &kp GREATER_THAN            &hold_tap QUESTION EXCLAMATION  &hold_tap SLASH ASTERISK     &kp N1        &kp NUMBER_2  &kp NUMBER_3  &hold_tap RIGHT_BRACE LEFT_BRACE              &none  &to 4
+                                         &kp LGUI                    &to 0                           &kp SPACE                    &kp RET       &to 2         &kp RALT
             >;
         };
 
