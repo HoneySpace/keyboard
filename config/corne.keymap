@@ -46,10 +46,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp PERCENT    &kp DOLLAR     &kp GRAVE                   &kp SINGLE_QUOTE                &kp DOUBLE_QUOTES            &hold_tap RIGHT_BRACE LEFT_BRACE              &kp N7  &kp N8  &kp N9  &none  &kp BSPC
-&kp CARET  &kp AMPERSAND  &kp PIPE       &hold_tap UNDERSCORE MINUS  &hold_tap PLUS EQUAL            &hold_tap SEMICOLON COLON    &hold_tap RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp N4  &kp N5  &kp N6  &none  &none
-&kp LSHFT  &kp HASH       &kp LESS_THAN  &kp GREATER_THAN            &hold_tap QUESTION EXCLAMATION  &hold_tap SLASH ASTERISK     &hold_tap RIGHT_BRACKET LEFT_BRACKET          &kp N1  &kp N2  &kp N3  &none  &to 4
-                                         &mo 5                       &to 0                           &kp SPACE                    &kp RET                                       &to 2   &kp N0
+&kp TAB    &kp PERCENT    &kp DOLLAR     &kp GRAVE                   &kp SINGLE_QUOTE                &kp DOUBLE_QUOTES            &kp LEFT_BRACE        &kp N7  &kp N8  &kp N9  &kp RIGHT_BRACE        &kp BSPC
+&kp CARET  &kp AMPERSAND  &kp PIPE       &hold_tap UNDERSCORE MINUS  &hold_tap PLUS EQUAL            &hold_tap SEMICOLON COLON    &kp LEFT_PARENTHESIS  &kp N4  &kp N5  &kp N6  &kp RIGHT_PARENTHESIS  &none
+&kp LSHFT  &kp HASH       &kp LESS_THAN  &kp GREATER_THAN            &hold_tap QUESTION EXCLAMATION  &hold_tap SLASH ASTERISK     &kp LEFT_BRACKET      &kp N1  &kp N2  &kp N3  &kp RIGHT_BRACKET      &to 4
+                                         &mo 5                       &to 0                           &kp SPACE                    &kp RET               &to 2   &kp N0
             >;
         };
 
